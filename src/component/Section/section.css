@@ -1,0 +1,35 @@
+
+
+.content-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.show-text{
+    padding-left: 4rem;
+    
+}
+.fit-img{
+    width: 100%;
+}
+.set1{
+    width: 25%;
+}
+.set1-text,.set2-text,.set3-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+@media (max-width:600px) {
+    .set1{
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+}
+

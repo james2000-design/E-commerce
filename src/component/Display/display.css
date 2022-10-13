@@ -1,0 +1,11 @@
+
+.frame{
+    background-color: rgb(219, 219, 112);
+    margin-top: 2rem;
+    padding: 2rem 2rem 1rem 1rem;
+    
+}
+.frame-image{
+    width: 100%;
+    margin: 4px;
+}

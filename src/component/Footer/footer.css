@@ -1,0 +1,31 @@
+
+.social{
+    margin-right: 4px;
+    width: 2rem;
+}
+
+.closing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.closing a{
+    text-decoration: none;
+    color: white;
+}
+
+.head{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    
+}
+
+.par{
+    margin-bottom: 1rem;
+}
+

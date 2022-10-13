@@ -1,0 +1,62 @@
+
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    background-color: #FFE95A;
+    padding: 4rem;
+}
+.carry{
+    color: white;
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+.cover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.firm{
+    width: 80%;
+}
+.add {
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+}
+.sender{
+    height: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.promo{
+    font-weight:900;
+    font-size: 20px;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+@media (max-width:768px) {
+    .carry{
+        width: 100%;
+    }
+    .promo{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
