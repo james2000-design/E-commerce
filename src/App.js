@@ -10,6 +10,7 @@ import  Section  from './component/Section/Section';
 import Young from './component/Young/Young';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './Pages/Homepage';
+import States from './Pages/States';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +22,7 @@ function App() {
       
   <BrowserRouter>
     
+    {/* <States /> */}
 
       <Routes>
     <Route path='/' element={ <Homepage />} />
