@@ -27,7 +27,7 @@ function App() {
       <Routes>
     <Route path='/' element={ <Homepage />} />
 
-<Route path='/section' element={<Section />} />
+  <Route path='/section' element={<Section />} />
 
 
       </Routes>
